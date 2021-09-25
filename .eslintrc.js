@@ -24,6 +24,7 @@ module.exports = {
       'error',
       { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
     ],
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     'no-use-before-define': 'off',
     'import/extensions': 'off',
     'import/no-unresolved': 'off',
