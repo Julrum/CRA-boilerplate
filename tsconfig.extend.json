@@ -4,10 +4,10 @@
     "paths": {
       "@App": ["./App.tsx"],
 
-      "@root": ["./"],
-      "@root/*": ["./*"],
       "@components": ["./components"],
-      "@components/*": ["./components/*"]
+      "@components/*": ["./components/*"],
+      "@styles": ["./styles"],
+      "@styles/*": ["./styles/*"]
     }
   }
 }
