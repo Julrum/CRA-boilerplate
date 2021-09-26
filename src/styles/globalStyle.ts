@@ -14,6 +14,7 @@ const GlobalStyle = createGlobalStyle`
 		background: ${({ theme }) => theme.colors.background};
 		color: ${({ theme }) => theme.colors.main};
 		font-size: ${({ theme }) => theme.fontSizes.body};
+		font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
 		-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
 	}

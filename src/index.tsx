@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import { ThemeProvider } from 'styled-components';
 import './index.css';
 import App from '@App';
+import FontStyles from '@styles/fonts/fonts';
 import GlobalStyle from '@styles/globalStyle';
 import theme from '@styles/theme';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <ThemeProvider theme={theme}>
+    <FontStyles />
     <GlobalStyle />
     <App />
   </ThemeProvider>,
